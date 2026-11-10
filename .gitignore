@@ -1,0 +1,27 @@
+# Generated quest and pipe data
+/01-shell/quest/
+/01-shell/access.log
+/01-shell/code/
+/01-shell/check-data/
+/01-shell/journal.txt
+
+# Locally compiled programs and temporary stress outputs
+/02-shell/task-a/slow
+/02-shell/task-a/fast
+/02-shell/task-a/gen
+/02-shell/task-b/slow
+/02-shell/task-b/fast
+/02-shell/task-b/gen
+/02-shell/.build/
+*.o
+*.exe
+*.out
+*.err
+*.tmp
+
+# Python and editor caches
+__pycache__/
+*.py[cod]
+.DS_Store
+.vscode/
+.idea/
